@@ -1,0 +1,24 @@
+.form-group {
+  position: relative;
+  overflow: hidden;
+}
+label {
+  color: #1ac2c6;
+  position: absolute;
+  top: 100%;
+  transition: 0.5s;
+}
+input {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.text-up {
+  top: -20% !important;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  box-shadow: none;
+}

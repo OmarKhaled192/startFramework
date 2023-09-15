@@ -1,0 +1,9 @@
+<div class="image" (click)="open()">
+  <img src={{ImgPath}} alt="{{ImgName}}">
+  <div class="overlay">
+    <i class="fa-solid fa-plus"></i>
+  </div>
+</div>
+<div class="popup {{myClass?myClass:'d-none'}}" (click)="close()">
+  <img   src={{ImgPath}} alt="{{ImgName}}" (click)="prevent( $event )" >
+</div>

@@ -1,0 +1,4 @@
+<div class="form-group pt-4 mt-4 mb-4">
+    <label [for]="myName" class="py-2 px-2" [class.text-up]="writeOrNot">{{myLabel}}</label>
+    <input [type]="myType" class="form-control" [id]="myName" [placeholder]="myName" (input)="checkOnLen($event)">
+</div>

@@ -1,0 +1,29 @@
+.main-title h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+}
+.main-title .line {
+  position: relative;
+  margin-block: 10px;
+}
+.main-title .line:after {
+  content: "";
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  height: 3px;
+  width: 80px;
+  background-color: var(--color);
+}
+
+.main-title .line:before {
+  content: "";
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  height: 3px;
+  width: 80px;
+  background-color: var(--color);
+}
+

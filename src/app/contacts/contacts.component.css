@@ -1,0 +1,16 @@
+.contacts {
+  margin-top: 150px;
+  margin-bottom: 35px;
+}
+form {
+  width: 60%;
+  position: relative;
+  overflow: hidden;
+}
+input[type="submit"]{
+  background-color: #1abc9c;
+  border: none;
+  padding: 7.5px 15px;
+  color: #fff;
+  border-radius: 10px;
+}
